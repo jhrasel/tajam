@@ -703,6 +703,11 @@ ul,ol{
     font-size: 14px;
     font-weight: 400;
 }
+.contact-item .msg input{
+    padding-top: 25px;
+    padding-bottom: 165px;
+    
+}
 .form-control:focus {
 	box-shadow: none;
 }
