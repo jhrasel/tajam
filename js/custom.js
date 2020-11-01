@@ -80,11 +80,13 @@ $('.navbar a').on('click', function () {
 });
     
     
-    // ============= preloader Pare js   ============= 
     
-    $(window).on('load',function(){
-    $('.preloader').delay(700).fadeOut(500);
-});  
+   // ============= preloader Pare js   ============= 
+    
+$(window).on('load',function(){
+        $('#preloader').delay(500).fadeOut(500);
+    }); 
+
 
     
     
