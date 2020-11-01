@@ -1,0 +1,423 @@
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+button:focus {
+	outline: none;
+}
+    .navbar{
+        background: #09052f;
+        opacity: .9;
+    }
+   .navbar-toggler i{
+    color: #fff;
+}
+    .navbar-nav {
+	text-align: center;
+    background: #09052f;
+}
+    .navbar .navbar-nav .nav-link {
+	line-height: 40px;
+}
+    .navbar {
+	position: static;
+}
+    .banner-text {
+	padding-top: 15px;
+}
+    .banner-text h1 {
+	font-size: 35px;
+	padding-bottom: 30px;
+}
+    .banner-text h1::after {
+	bottom: 5px;
+
+}
+    .banner-text p{
+        padding-top: 20px;
+        padding: 0 100px;
+}
+    .abc{
+    margin-top: 10px;
+}
+    .slick-dots{
+    bottom: -20px;
+}
+    .slick-dots button {
+	height: 10px;
+	width: 10px;
+}
+    .slick-dots li {
+	width: 12px;
+	height: 12px;
+}
+    #video {
+	padding-top: 115px;
+	padding-bottom: 90px;
+}
+   .team-item {
+	margin-bottom: 20px;
+}
+    .team-text3 h3 {
+	padding-top: 34px;
+	padding-bottom: 22px;
+}
+    .people-text h3 {
+	font-size: 85px;
+	margin-top: -72px;
+}
+    .people-text p {
+	font-size: 13px;
+	line-height: 20px;
+	padding-bottom: 3px;
+	margin-top: -36px;
+}
+    #people .slick-dots li{
+    width: 10px;
+    height: 10px;
+}
+    #people .slick-dots button {
+	height: 9px;
+	width: 9px;
+        line-height: 24px;
+}
+    #contact {
+	padding-top: 35px;
+	padding-bottom: 20px;
+}
+    .contact-item {
+	text-align: center;
+}
+    .submit {
+	padding-bottom: 45px;
+}
+    .contact-item h3 {
+	padding-bottom: 30px;
+}
+    #footer {
+	padding-top: 35px;
+	padding-bottom: 45px;
+}
+    .footer-item h6 {
+	padding-top: 45px;
+}
+    .footer-icon {
+	right: 400px;
+}
+   
+}
+
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    button:focus {
+	outline: none;
+}
+    .navbar{
+        background: #09052f;
+        opacity: .9;
+    }
+   .navbar-toggler i{
+    color: #fff;
+}
+    .navbar-nav {
+	text-align: center;
+    background: #09052f;
+}
+    .navbar .navbar-nav .nav-link {
+	line-height: 40px;
+}
+    .navbar {
+	position: static;
+}
+    .banner-item img{
+        height: 300px;
+    }
+    .banner-text {
+	padding-top: 30px;
+}
+    .banner-text h1 {
+	font-size: 18px;
+	padding-bottom: 40px;
+}
+   .banner-text p {
+	font-size: 14px;
+	margin-top: -10px;
+	line-height: 18px;
+    padding: 0 15px;
+}
+    .abc{
+    margin-top: 30px;
+}
+    .slick-dots button {
+	height: 9px;
+	width: 9px;
+}
+    .slick-dots li{
+    margin: 0 10px;
+    width: 10px;
+    height: 10px;
+    text-align: center;
+    border-radius: 50%;
+}
+   .next {
+	display: none!important;
+}
+    .prev {
+	display: none!important;
+}
+    .slick-dots {
+	bottom: -20px;
+}
+    #about {
+	padding-top: 40px;
+	padding-bottom: 65px;
+}
+    .about-item{
+        text-align: center;
+        padding-top: 30px;
+}
+    #video {
+	padding-top: 125px;
+	padding-bottom: 115px;
+}
+    .work-padding {
+	padding-bottom: 24px;
+}
+    .team-item {
+	margin-bottom: 20px;
+}
+    .people-item img{
+    height: 300px;
+}
+    .people-text{
+    padding-top: 15px;
+}
+    .people-text h3 {
+	font-size: 50px;
+    margin-bottom: -10px;
+}
+    .people-text p {
+	font-size: 13px;
+	line-height: 20px;
+    padding: 0 15px; 
+	padding-bottom: 0px;
+}
+    .people-prev {
+	display: none!important;
+}
+    .people-next {
+	display: none!important;
+}
+     #people .slick-dots li{
+    width: 10px;
+    height: 10px;
+}
+    #people .slick-dots button {
+	height: 9px;
+	width: 9px;
+        line-height: 24px;
+}
+    .contact-item {
+	text-align: center;
+}
+    .contact-item h3 {
+	padding-bottom: 40px;
+	padding-top: 45px;
+}
+    .footer-icon {
+	position: absolute;
+	top: 0;
+	right: 221px;
+}
+     #footer {
+	padding-top: 35px;
+	padding-bottom: 45px;
+}
+
+    
+}
+
+
+/*  Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    button:focus {
+	outline: none;
+}
+    .navbar{
+        background: #09052f;
+        opacity: .9;
+    }
+   .navbar-toggler i{
+    color: #fff;
+}
+    .navbar-nav {
+	text-align: center;
+    background: #09052f;
+}
+    .navbar .navbar-nav .nav-link {
+	line-height: 40px;
+}
+    .navbar {
+	position: static;
+}
+    .banner-item img{
+        height: 300px;
+    }
+    .banner-text {
+	padding-top: 40px;
+}
+    .banner-text h1 {
+	font-size: 18px;
+	padding-bottom: 30px;
+}
+    .banner-text p {
+	font-size: 12px;
+    line-height: 20px;
+	margin-top: -10px;
+    line-height: 16px;
+    padding: 0 10px;
+}
+    .abc{
+        margin-top: 35px;
+    }
+
+    .slick-dots button {
+	height: 6px;
+	width: 6px;
+}
+    .slick-dots li{
+    margin: 0 5px;
+    display: inline-block;
+    border: 1px solid #bbbbbd;
+    width: 7px;
+    height: 7px;
+    text-align: center;
+    border-radius: 50%;
+}
+.slick-dots {
+	bottom: -31px;
+}
+ 
+  .next {
+	display: none!important;
+}
+    .prev {
+	display: none!important;
+}
+    .slick-dots {
+	bottom: -20px;
+}
+    
+#about {
+	background: #fff;
+	padding-top: 28px;
+	padding-bottom: 44px;
+}
+    .about-item{
+        text-align: center;
+    }
+    .about-item h2 {
+	padding-top: 20px;
+}
+    #video {
+	padding-top: 100px;
+	padding-bottom: 73px;
+}
+    #expartise {
+	padding-top: 40px;
+	padding-bottom: 0px;
+}
+    .expartise-item p {
+	padding-bottom: 11px;
+}
+    #team {
+	padding-top: 50px;
+	padding-bottom: 65px;
+}
+    .team-item {
+	margin-bottom: 20px;
+}
+    .team-text3 h3 {
+	padding-top: 30px;
+	padding-bottom: 35px;
+}
+    #work {
+	padding-top: 40px;
+	padding-bottom: 60px;
+}
+    .btn {
+	margin-right: 2px;
+	margin-bottom: 22px;
+}
+    .people-item img{
+        height: 320px;
+    }
+    .people-text{
+        padding-top: 15px;
+    }
+    .people-text h3 {
+	font-size: 50px;
+    margin-bottom: -10px;
+}
+    .people-text p {
+	font-size: 13px;
+	line-height: 18px;
+    padding: 0 10px; 
+	padding-bottom: 0px;
+}
+    .people-prev {
+	display: none!important;
+}
+    .people-next {
+	display: none!important;
+}
+     #people .slick-dots li{
+    width: 10px;
+    height: 10px;
+}
+    #people .slick-dots button {
+	height: 9px;
+	width: 9px;
+    line-height: 24px;
+}
+    #contact {
+	padding-top: 35px;
+	padding-bottom: 20px;
+}
+    .contact-item {
+	text-align: center;
+}
+    .submit {
+	padding-bottom: 45px;
+}
+    .contact-item h3 {
+	padding-bottom: 30px;
+}
+    #footer {
+	padding-top: 35px;
+	padding-bottom: 45px;
+}
+    .footer-item h6 {
+	padding-top: 45px;
+}
+    .footer-icon {
+	top: 0;
+	right: 0px;
+}
+
+    
+}
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
