@@ -158,6 +158,7 @@ ul,ol{
     left: 50px;
     transform: translateY(-50%);
     z-index: 999;
+    cursor: pointer;
 }
 .next{
     position: absolute;
@@ -165,6 +166,7 @@ ul,ol{
     right: 50px;
     transform: translateY(-50%);
     z-index: 999;
+    cursor: pointer;
 }
 .slick-dots{
     position: absolute;

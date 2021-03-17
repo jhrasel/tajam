@@ -1,7 +1,7 @@
 /* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) and (max-width: 991.98px) {
-button:focus {
-	outline: none;
+    button:focus {
+	    outline: none;
 }
     .navbar{
         background: #09052f;
